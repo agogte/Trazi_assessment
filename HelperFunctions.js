@@ -1,5 +1,9 @@
 const fs = require('fs');
 
+//Load json file
+const jsonFile = './data/city_populations.json'
+const jsonData = readJSONFile(jsonFile);
+
 // Load data from the JSON file
 function readJSONFile(filename) {
     try {
@@ -11,6 +15,8 @@ function readJSONFile(filename) {
       return null;
     }
 }
+
+
 
 //Check if the city+state combo exists in the data
 function checkCombo(req, res, next) {

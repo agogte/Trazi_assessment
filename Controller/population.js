@@ -26,6 +26,7 @@ exports.getPopulation = (req, res) => {
 
     const filteredData = jsonData.filter((entry) => entry.State.toLowerCase() === state && entry.City.toLowerCase() === city);
     res.status(200).json({ population: filteredData[0].Population });
+    console.log(city, state)
 
 }
 

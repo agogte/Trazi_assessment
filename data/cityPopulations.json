@@ -1,17 +1,17 @@
 [
   {
+    "City": "Wheaton",
+    "State": "Maryland",
+    "Population": 999
+  },
+  {
+    "City": "Fairfax",
+    "State": "Virginia",
+    "Population": 235
+  },
+  {
     "City": "Loudon",
     "State": "Virginia",
-    "Population": 32534
-  },
-  {
-    "City": "Arlington",
-    "State": "Virginia",
-    "Population": 123234325
-  },
-  {
-    "City": "Hyatsville",
-    "State": "Maryland",
-    "Population": 123234325
+    "Population": 35325
   }
 ]
